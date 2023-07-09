@@ -1,0 +1,12 @@
+name: NightVisionPluginGivePlayerJoin
+version: '${project.version}'
+main: com.github.happyrogelio7.nightvisionplugingiveplayerjoin.NightVisionPluginGivePlayerJoin
+api-version: '1.16'
+authors: [HappyRogelio7]
+description: Plugin para dar visión nocturna a los jugadores al entrar al servidor
+commands:
+  nightvisionplugingiveplayerjoin:
+    description: Comando para dar visión nocturna a los jugadores
+    usage: /<command> <player>
+    aliases: [nvppj]
+
